@@ -1,0 +1,7 @@
+.my-select {
+	margin-right: 30px;
+	padding: 15px 25px;
+	border-radius: 5px;
+	border: 1px solid purple;
+	cursor: pointer;
+}

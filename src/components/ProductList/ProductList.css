@@ -1,0 +1,15 @@
+.product__list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 50px;
+	padding-top: 20px;
+}
+
+.products__list-error {
+	text-align: center;
+	font-size: 50px;
+	line-height: 100%;
+	color: red;
+}
