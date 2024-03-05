@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProductItem.css'
 
-export default function ProductItem({id, title, price, brand}) {
+const ProductItem = ({id, title, price, brand}) => {
 	return (
 		<div className="product__list-item">
 			<p className="item-id">ID: {id}</p>
@@ -11,3 +11,5 @@ export default function ProductItem({id, title, price, brand}) {
 		</div>
 	)
 }
+
+export default ProductItem;

@@ -5,7 +5,7 @@ import './ProductList.css';
 
 
 
-export default function ProductList({products, isProductLoading}) {
+const  ProductList = ({products, isProductLoading}) => {
 	
 	if (!products.length && !isProductLoading) {
 		return (
@@ -23,3 +23,5 @@ export default function ProductList({products, isProductLoading}) {
 		</div>
 	)
 }
+
+export default ProductList;
