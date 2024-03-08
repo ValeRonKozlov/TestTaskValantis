@@ -58,7 +58,7 @@ function App() {
 			const timeout = 2000;
 			nameTimer = setTimeout(() => {
 				fetchingFilterByName(name)
-				console.log(name);
+				// console.log(name);
 			}, timeout);
 		}
 
@@ -83,7 +83,7 @@ function App() {
 			const timeout = 2000;
 			priceTimer = setTimeout(() => {
 				fetchFilterByPrice(price)
-				console.log(price);
+				// console.log(price);
 			}, timeout);
 		}
 

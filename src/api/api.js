@@ -1,7 +1,7 @@
 import axios from "axios";
 import { generateAuthToken } from "../utils/utils.js";
 
-const BASE_API = `http://api.valantis.store:40000/`;
+const BASE_API = `https://api.valantis.store:41000/`;
 const token = generateAuthToken();
 
 
@@ -14,7 +14,7 @@ export default class ProductService {
 		},
 		{
 			headers: {
-				'Content-Type': 'application/json', 
+				'Content-Type': 'application/json, text/plain', 
 				'X-Auth': token
 			}
 		})
